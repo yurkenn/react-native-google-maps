@@ -16,9 +16,6 @@ const InfoCard = ({visible, close, user}) => {
           {user.first_name} {user.last_name}
         </Text>
         <Text style={styles.username}>{user.username}</Text>
-        <Text style={styles.location}>
-          {user.address.country} : {user.address.city}
-        </Text>
       </View>
     </Modal>
   );
