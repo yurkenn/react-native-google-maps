@@ -19,7 +19,6 @@ const App = () => {
         first_name,
         last_name,
         username,
-        address,
         avatar,
         address: {coordinates},
       }) => {
@@ -36,8 +35,6 @@ const App = () => {
                 first_name,
                 last_name,
                 username,
-                address,
-                avatar,
               })
             }
           />
